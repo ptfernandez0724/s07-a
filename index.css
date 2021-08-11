@@ -1,0 +1,128 @@
+/*CSS Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	padding: 0.8rem;
+
+	/*padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 30px;
+	padding-bottom: 40px;*/
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+	list-style-type: none;
+
+}
+
+nav .nav, nav .nav-logo {
+
+	display: inline;
+
+	/*inline changes the li elements into inline elements.*/
+
+	margin: 0.5rem;
+}
+
+#intro {
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.header {
+	text-align: center;
+}
+
+#intro h2, #intro p {
+	margin-bottom: 1rem;
+
+}
+
+#intro button {
+	padding: 1rem;
+	color: white;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-weight: bold;
+}
+
+#succeed-info {
+	/*padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;*/
+
+	padding: 2rem 10% 3rem;
+}
+
+#succeed-info h2 {
+	margin-bottom: 1rem;
+}
+
+#succeed-info h3{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	
+}
+
+footer {
+	padding: 0.7rem;
+	text-align: center;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+/*Activity:
+
+
+1. Add a CSS rule for the pre-footer section to create space for the content, change the background to #002540 and text color to white.
+2. Add a CSS rule for the div tags to align the elements horizontally.
+3. Add a CSS rule for all elements inside the div tags to create space between them vertically
+4. Create a git repository named s07-a in gitlab and github
+5. Push the changes to git
+6. Go to the github > settings > Pages and copy the link hosted project
+7. Copy the link and paste it to Boodle named CSS - Box Model*/
+
+#pre-footer {
+	padding: 0.2rem 1% 0.3rem;
+	background-color: #002540;
+	color: white;
+}
+
+#pre-footer .card {
+	display: inline-block;
+	width: 20%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+#pre-footer h3 {
+	
+	text-align: left;
+	margin-bottom: 1rem;
+}
+
+
+
